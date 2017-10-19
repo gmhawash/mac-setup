@@ -2,29 +2,23 @@
 
 # Homebrew binaries
 binaries=(
-  ack
-  apg
-  archey
+  ag
   bash-completion git
-  caskroom/cask/brew-cask
+  chruby
   curl
-  fontconfig
-  freetype
   git
-  imagemagick
   irssi
   mas
-  mysql
   node
   openssl
-  rbenv
+  postgresql
   readline
   redis
-  ruby
+  ruby-build
   sqlite
-  thefuck
-  the_silver_searcher
   tmux
+  vim -with-lua
+  wget
 )
 
 brew install ${binaries[@]}
